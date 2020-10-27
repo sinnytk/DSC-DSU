@@ -2,19 +2,12 @@
 
 Main repository containing all relevant documents and codebase for Developer Student Club at DSU powered by Google Developers
 
-## Table Of Contents
+## Sessions
 
-- [Videos](#Videos)
-- [Lecture Notes](#Lecture_Notes)
-- [Events](#Events)
+- [Version Control With Git](<##Version\ Control\ With\ Git>)
 
-## Videos
+## Resources
 
-- ## [Version Control with Git](#)
-  ### Lecture notes: [version_control_with_git.md](version_control_with_git.md)
-
-## Lecture_Notes
-
-- ## [Version Control with Git](version_control_with_git.md)
-
-## Events
+- ## Version Control With Git
+  - [Lecture notes](version_control_with_git/lecture_notes.md)
+  - [Youtube playlist](https://www.youtube.com/watch?v=oMntxxpwDqA&list=PLLyazdzLgFw7YKIV7tPhwruafPl388OoN)
