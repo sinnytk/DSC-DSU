@@ -1,5 +1,7 @@
 # DSC-DSU
 
+<img src="DSU.png" width="600px"></img>
+
 Main repository containing all relevant documents and codebase for Developer Student Club at DSU powered by Google Developers
 
 ## Sessions
@@ -9,9 +11,9 @@ Main repository containing all relevant documents and codebase for Developer Stu
 ## Resources
 
 - ## Version Control With Git
+
   - [Lecture notes](version_control_with_git/lecture_notes.md)
   - [Youtube playlist](https://www.youtube.com/watch?v=oMntxxpwDqA&list=PLLyazdzLgFw7YKIV7tPhwruafPl388OoN)
-
 
 - ## Machine Learning Workshop
   - [Notebook](machine_learning_workshop/titanic_survival.ipynb)
