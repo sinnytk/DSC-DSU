@@ -3,26 +3,22 @@
 <p align="center"><img src="banner.jpg"></img></p>
 Repository to hold DSC@DSU Python Bootcamp 2020 resources.
 
-## Bootcamp outline
+## Lecture Notes
 
-- ### Week 1 | Basics (IDE, Datatypes, Structures) | Dec 4 - Dec 6
-
-  - Installation, IDEs, runtime
-  - PEP8, datatypes, scope, loops, conditions
-  - Dicts, lists, collections
-
-- ### Week 2 | Filing, web scraping | Dec 11 - Dec 13
-  - File handling, CSV reading and writing
-  - Web Scraping with `requests` and `BeautifulSoup4`
-  - Handling web sessions and cookies
-- ### Week 3 | Web automation | Dec 18 - Dec 20
-  - Web crawlers and bots using Selenium
-  - Interacting with websites
-  - Creating Facebook bot
-- ### Week 4 | Web app, GUI, the Future | Dec 25 - Dec 27
-  - Creating basic web apps with Flask
-  - Desktop GUIs using PyQT
-  - Conclusion with resources to follow
+| Date          | Week | Topics                                            | Lecture Notes                | Recorded YouTube Link |
+| ------------- | ---- | ------------------------------------------------- | ---------------------------- | --------------------- |
+| 4th Dec 2020  | 1    | Installation, IDEs, runtime                       | [Lecture Notes 1.1](week_1/) |                       |
+| 5th Dec 2020  |      | PEP8, datatypes, scope, loops, conditions         |                              |                       |
+| 6th Dec 2020  |      | Dicts, lists, collections                         |                              |                       |
+| 11th Dec 2020 | 2    | File handling, CSV reading and writing            |                              |                       |
+| 12th Dec 2020 |      | Web Scraping with `requests` and `BeautifulSoup4` |                              |                       |
+| 13th Dec 2020 |      | Handling web sessions and cookies                 |                              |                       |
+| 18th Dec 2020 | 3    | Web crawlers and bots using Selenium              |                              |                       |
+| 19th Dec 2020 |      | Interacting with websites using Bots              |                              |                       |
+| 20th Dec 2020 |      | Creating Facebook bot                             |                              |                       |
+| 25th Dec 2020 | 4    | Creating basic web apps with Flask                |                              |                       |
+| 26th Dec 2020 |      | Desktop GUIs using PyQT                           |                              |                       |
+| 27th Dec 2020 |      | Conclusion with resources to follow               |                              |                       |
 
 ## Instructors
 
