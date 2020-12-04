@@ -5,20 +5,23 @@ Repository to hold DSC@DSU Python Bootcamp 2020 resources.
 
 ## Lecture Notes
 
-| Date          | Week | Topics                                            | Lecture Notes                | Recorded YouTube Link |
-| ------------- | ---- | ------------------------------------------------- | ---------------------------- | --------------------- |
-| 4th Dec 2020  | 1    | Installation, IDEs, runtime                       | [Lecture Notes 1.1](week_1/) |                       |
-| 5th Dec 2020  |      | PEP8, datatypes, scope, loops, conditions         |                              |                       |
-| 6th Dec 2020  |      | Dicts, lists, collections                         |                              |                       |
-| 11th Dec 2020 | 2    | File handling, CSV reading and writing            |                              |                       |
+| Date          | Week |                      Topics                       |        Lecture Notes         | Recorded YouTube Link |
+| :------------ | ---: | :-----------------------------------------------: | :--------------------------: | --------------------- |
+| 4th Dec 2020  |    1 |            Installation, IDEs, runtime            | [Lecture Notes 1.1](week_1/) |                       |
+| 5th Dec 2020  |      |     PEP8, datatypes, scope, loops, conditions     |                              |                       |
+| 6th Dec 2020  |      |             Dicts, lists, collections             |                              |                       |
+|               |      |                                                   |                              |                       |
+| 11th Dec 2020 |    2 |      File handling, CSV reading and writing       |                              |                       |
 | 12th Dec 2020 |      | Web Scraping with `requests` and `BeautifulSoup4` |                              |                       |
-| 13th Dec 2020 |      | Handling web sessions and cookies                 |                              |                       |
-| 18th Dec 2020 | 3    | Web crawlers and bots using Selenium              |                              |                       |
-| 19th Dec 2020 |      | Interacting with websites using Bots              |                              |                       |
-| 20th Dec 2020 |      | Creating Facebook bot                             |                              |                       |
-| 25th Dec 2020 | 4    | Creating basic web apps with Flask                |                              |                       |
-| 26th Dec 2020 |      | Desktop GUIs using PyQT                           |                              |                       |
-| 27th Dec 2020 |      | Conclusion with resources to follow               |                              |                       |
+| 13th Dec 2020 |      |         Handling web sessions and cookies         |                              |                       |
+|               |      |                                                   |                              |                       |
+| 18th Dec 2020 |    3 |       Web crawlers and bots using Selenium        |                              |                       |
+| 19th Dec 2020 |      |       Interacting with websites using Bots        |                              |                       |
+| 20th Dec 2020 |      |               Creating Facebook bot               |                              |                       |
+|               |      |                                                   |                              |                       |
+| 25th Dec 2020 |    4 |        Creating basic web apps with Flask         |                              |                       |
+| 26th Dec 2020 |      |              Desktop GUIs using PyQT              |                              |                       |
+| 27th Dec 2020 |      |        Conclusion with resources to follow        |                              |                       |
 
 ## Instructors
 
