@@ -26,4 +26,5 @@ Main repository containing all relevant documents and codebase for Developer Stu
 
 - ## Python Bootcamp 2020
   - [YouTube playlist](https://www.youtube.com/playlist?list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&fbclid=IwAR0NGiQMWnytKUn9Je5BP4BWro-hcTxoEbuw8nNNpbECKGKFG6et6yz4-co)
-  - [Lecture notes](python_bootcamp_2020/readme.md)
+  - [Lecture notes](python_bootcamp_2020/README.md)
+
