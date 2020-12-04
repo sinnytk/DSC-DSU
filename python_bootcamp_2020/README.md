@@ -59,6 +59,8 @@ Repository to hold DSC@DSU Python Bootcamp 2020 resources.
   </tr>
 </table>
 
+## [Smart Questioning Guidelines](smart_questioning_guidelines.md)
+
 ## Resources
 
 - [YouTube playlist](https://www.youtube.com/playlist?list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&fbclid=IwAR0NGiQMWnytKUn9Je5BP4BWro-hcTxoEbuw8nNNpbECKGKFG6et6yz4-co)
