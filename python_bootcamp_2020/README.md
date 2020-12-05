@@ -7,7 +7,7 @@ Repository to hold DSC@DSU Python Bootcamp 2020 resources.
 
 | Date          | Week |                      Topics                       |        Lecture Notes         | Recorded YouTube Link |
 | :------------ | ---: | :-----------------------------------------------: | :--------------------------: | --------------------- |
-| 4th Dec 2020  |    1 |            Installation, IDEs, runtime            | [Lecture Notes 1.1](week_1/) |                       |
+| 4th Dec 2020  |    1 |            Installation, IDEs, runtime            | [Lecture Notes 1.1](week_1/) |  [https://youtu.be/DmSf5VO43Ns]  (youtube 1.1)    |
 | 5th Dec 2020  |      |     PEP8, datatypes, scope, loops, conditions     |                              |                       |
 | 6th Dec 2020  |      |             Dicts, lists, collections             |                              |                       |
 |               |      |                                                   |                              |                       |
