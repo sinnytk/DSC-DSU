@@ -1,6 +1,6 @@
 # Lecture Notes
 
-<p align="center"><img src="../banner.jpg"></img></p>
+<p align="center"><img src="../../banner.jpg"></img></p>
 
 # Python Bootcamp | DSC@DSU
 
