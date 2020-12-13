@@ -5,19 +5,19 @@ Repository to hold DSC@DSU Python Bootcamp 2020 resources.
 
 ## Week 1 | Basics (IDE, Datatypes, Structures)
 
-- ### Day 1
-  - Installation
-  - Runtime environments (`Jupyter Notebook`, `Shell`, `Script`)
-  - Procedure of Bootcamp
-- ### Day 2
-  - PEP8 overview, naming conventions
-  - Primitive datatypes, variable scopes, dynamic typing
-  - Programming structures (`if`/`else`, `for/while`, `input`, output)
-- ### Day 3
-  - Functions
-  - Collection data structures (Dicts, Lists, Tuples)
-  - Mutability
-  - Iterating over collections
+- ### [Day 1](day_1/)
+- Installation
+- Runtime environments (`Jupyter Notebook`, `Shell`, `Script`)
+- Procedure of Bootcamp
+- ### [Day 2](day_2/)
+- PEP8 overview, naming conventions
+- Primitive datatypes, variable scopes, dynamic typing
+- Programming structures (`if`/`else`, `for/while`, `input`, output)
+- ### [Day 3](day_3/)
+- Functions
+- Collection data structures (Dicts, Lists, Tuples)
+- Mutability
+- Iterating over collections
 
 ## Assignments
 
