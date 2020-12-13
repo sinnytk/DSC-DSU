@@ -18,7 +18,7 @@ How do we know if a website is using AJAX ?
 
 we can check it by simply checking the Network tab in inspect 
 
-    [https://directory.ntschools.net/#/schools](https://directory.ntschools.net/#/schools)
+[https://directory.ntschools.net/#/schools](https://directory.ntschools.net/#/schools)
 
 ![lecture%20notes%20-%202%203%20b111b8ff3373478abf32962786aa1994/inspect.png](lecture%20notes%20-%202%203%20b111b8ff3373478abf32962786aa1994/inspect.png)
 
