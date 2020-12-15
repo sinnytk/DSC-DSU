@@ -12,8 +12,8 @@ Repository to hold DSC@DSU Python Bootcamp 2020 resources.
 | 6th Dec 2020  |      | \_\_name\_\_ variable, Dicts, lists, collections  | [Lecture Notes 1.3](week_1/day_3/) | [Youtube 1.3](https://youtu.be/G5rQ4u0psOg) |
 |               |      |                                                   |                                    |                                             |
 | 11th Dec 2020 |    2 |      File handling, CSV reading and writing       | [Lecture Notes 2.1](week_2/day_1)  | [Youtube 2.1](https://youtu.be/pdzKoAYcGv8) |
-| 12th Dec 2020 |      | Web Scraping with `requests` and `BeautifulSoup4` | [Lecture Notes 2.2](week_2/day_2)  |                                         |
-| 13th Dec 2020 |      |         Handling web sessions and cookies         |[Lecture Notes 2.3](week_2/day_3)   |                                             |
+| 12th Dec 2020 |      | Web Scraping with `requests` and `BeautifulSoup4` | [Lecture Notes 2.2](week_2/day_2)  | [Youtube 2.2](https://youtu.be/I8eHzbSNEiY) |
+| 13th Dec 2020 |      |         Handling web sessions and cookies         | [Lecture Notes 2.3](week_2/day_3)  | [Youtube 2.3](https://youtu.be/dZhU5smYl0I) |
 |               |      |                                                   |                                    |                                             |
 | 18th Dec 2020 |    3 |       Web crawlers and bots using Selenium        |                                    |                                             |
 | 19th Dec 2020 |      |       Interacting with websites using Bots        |                                    |                                             |
