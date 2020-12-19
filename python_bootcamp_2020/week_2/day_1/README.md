@@ -1,7 +1,6 @@
 # DSC-DSU | Python Bootcamp 2020
 
 <p align="center"><img src="../../banner.jpg"></img></p>
-Repository to hold DSC@DSU Python Bootcamp 2020 resources.
 
 ## Week 2, Day 1 (File system, filing and CSV)
 

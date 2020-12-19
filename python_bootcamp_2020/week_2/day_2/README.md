@@ -2,9 +2,11 @@
 
 # Python Bootcamp | DSC@DSU
 
+<p align="center"><img src="../../banner.jpg"></img></p>
+
 ## Week 2, Day 2
 
-By *Tarun Kumar*, **Python@DSU Lead** and Core Team **DSC@DSU**
+By _Tarun Kumar_, **Python@DSU Lead** and Core Team **DSC@DSU**
 
 Connection with internet is one of the important things for any human in today's time, same goes for the applications and software that you write.
 
@@ -12,13 +14,13 @@ Connection with internet is one of the important things for any human in today's
 
 Any connection over the internet is carried out through the **H**yperText **T**ransfer **P**rotocol and as protocols go, they define a set of rules so that communication is easier.
 
-Think any human communication, we communicate using a verbal protocol and in that verbal protocol there's a language used and that language has some a set of rules called grammar. 
+Think any human communication, we communicate using a verbal protocol and in that verbal protocol there's a language used and that language has some a set of rules called grammar.
 
 In the same fashion, to communicate over the web, you use HTTP.
 
-HTTP protocol supports the transfer of any hypermedia (interactive multimedia) in a client-server protocol using **requests**(client request of a resource or status from server) and **responses** (server's response after processing the request). 
+HTTP protocol supports the transfer of any hypermedia (interactive multimedia) in a client-server protocol using **requests**(client request of a resource or status from server) and **responses** (server's response after processing the request).
 
-To see the different transfers that happen between a client and server, go to any website on your browser and check ***Developer Tools -> Network Tab***
+To see the different transfers that happen between a client and server, go to any website on your browser and check **_Developer Tools -> Network Tab_**
 
 ![Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/Untitled.png](Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/Untitled.png)
 
@@ -26,11 +28,11 @@ You may notice when you click on any one request there, you'll see some header i
 
 ![Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/Untitled%201.png](Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/Untitled%201.png)
 
-What's important for you know the requested **url, request method** used ****and ****the **status code** returned.
+What's important for you know the requested **url, request method** used \***\*and \*\***the **status code** returned.
 
-In HTTP protcol, there are different request methods which help you categorize the requests and respond from the server accordingly. I won't be getting into too much detail on all the different methods and status codes, for that you can read up this [cheatsheet](https://cheatography.com/kstep/cheat-sheets/http-status-codes/). 
+In HTTP protcol, there are different request methods which help you categorize the requests and respond from the server accordingly. I won't be getting into too much detail on all the different methods and status codes, for that you can read up this [cheatsheet](https://cheatography.com/kstep/cheat-sheets/http-status-codes/).
 
-**GET** (retrieving some resource) and **POST** (sending and storing some resource) ****are the commonly used request methods and is what you'll be dealing with on the daily.
+**GET** (retrieving some resource) and **POST** (sending and storing some resource) \*\*\*\*are the commonly used request methods and is what you'll be dealing with on the daily.
 
 GET gets a resource while with POST you send in resources.
 
@@ -72,7 +74,7 @@ From reading up on their [documentation](https://www.discogs.com/developers/#pag
 Let's try to get all Led Zepplin releases:
 
 - I found that to get releases, the endpoint is:
-    - `/artists/{artist_id}/releases{?sort,sort_order}`
+  - `/artists/{artist_id}/releases{?sort,sort_order}`
 - The artist ID can easily be retrieved by Googling "Discog [artist name]" and I found Led Zeppelin's to be `34278`
 
 Now let's emulate a `GET` on the aforementioned endpoint:
@@ -86,18 +88,18 @@ response = requests.get(f"{base_url}/artists/34278/releases")
 >>> response.content
 b'{"pagination": {"page": 1, "pages": 43, "per_page": 50, "items": 2118, "urls":...
 # Response content truncated
- 
+
 ```
 
 Evidently, I get a Python dictionary like response from the API. This type of schema is called **J**avaScript **O**bject **N**otation or more commonly **JSON**. This is how REST APIs communicate with each other, to read up more what REST APIs are and what JSONs are: you can either watch [Mosh's video](https://www.youtube.com/watch?v=SLwpqD8n3d0), read up on this [FreeCodeCamp writeup](https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/) or Google around to find whatever seems to follow your pace because REST APIs are an important concept modern web development and something every Computer Scientist should be aware of.
 
 Now we got the response, however as the response is a huge one and not something we can scroll through and understand the schema of, let's use an online tool called [JSON Formatter](https://jsonformatter.org/) which can provide us a good overview of the schema.
 
-1) Just open the site jsonformatter.org
+1. Just open the site jsonformatter.org
 
-2) Paste in the response body.
+2. Paste in the response body.
 
-3) Click "Beautify"
+3. Click "Beautify"
 
 ![Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/Untitled%202.png](Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/Untitled%202.png)
 
@@ -136,21 +138,21 @@ Let's save this response in a `.html` file and see what the browser shows.
 ```bash
 >>> with open("sinnytk.html","w") as file:
 ...     file.write(response.content.decode())
-... 
+...
 353363
 ```
 
-![Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(11).png](Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(11).png)
+![Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(11).png](<Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(11).png>)
 
 You can see the difference (Urdu language being returned). The reason behind this is that web browsers are capable of executing the included JavaScript scripts in the HTML files, however a normal HTTP GET only retrieves the HTML resource without executing the underlying CSS file linking, JavaScript execution and other cascaded events that normal web browsers can do.
 
 This result can be more evident by doing the same GET request and saving response content on [https://ahfarmer.github.io/calculator/](https://ahfarmer.github.io/calculator/), a React based single page application which is completely JavaScript generated.
 
-![Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(12).png](Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(12).png)
+![Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(12).png](<Lecture%20Notes%2013778c78ac534a93aa4b6a6c8104467c/New_Project_(12).png>)
 
 ### Parsing and querying HTML code with `BeautifulSoup`
 
-Now imagine the previous example of retrieving my Facebook profile. Suppose I want to get my username or alternative name? 
+Now imagine the previous example of retrieving my Facebook profile. Suppose I want to get my username or alternative name?
 
 How do I go about it? There are some solutions like:
 
@@ -209,11 +211,11 @@ Live example:
 
 Note: script also attached
 
-Some sample projects i did(explained in live session): 
+Some sample projects i did(explained in live session):
 
 - Allison's project for different sites
 
 Some caveats to remember:
 
-- What you see in `***Right Click → View Page Source`*** is what you'll actually see when you download and parse using Requests and BS4
+- What you see in `***Right Click → View Page Source`\*\*\* is what you'll actually see when you download and parse using Requests and BS4
 - BeautifulSoup isn't capable of querying JavaScript code or CSS styles and hence only works on static sites without dynamically loaded content
