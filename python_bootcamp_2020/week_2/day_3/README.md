@@ -1,6 +1,12 @@
-# lecture notes - 2.3
+# Lecture Notes
 
-### Dynamic Web content
+# Python Bootcamp | DSC@DSU
+
+<p align="center"><img src="../../banner.jpg"></img></p>
+
+## Week 2, Day 3
+
+By _Bahawal Baloch_, **Python@DSU Co-Lead** and Core Team **DSC@DSU**
 
 why is it hard to scrap dynamic web content ?
 
@@ -12,17 +18,17 @@ data is requested to the server then the HTML page is modify based on the respon
 
 Most commonly web devs use AJAX for this job. AJAX stands for asynchronous javascript XML.
 
-XML stands for Extensible Markup Language. 
+XML stands for Extensible Markup Language.
 
 How do we know if a website is using AJAX ?
 
-we can check it by simply checking the Network tab in inspect 
+we can check it by simply checking the Network tab in inspect
 
 [https://directory.ntschools.net/#/schools](https://directory.ntschools.net/#/schools)
 
 ![lecture%20notes%20-%202%203%20b111b8ff3373478abf32962786aa1994/inspect.png](lecture%20notes%20-%202%203%20b111b8ff3373478abf32962786aa1994/inspect.png)
 
- As you can we the Data coming from an AJAX request can be found in the XHR tab
+As you can we the Data coming from an AJAX request can be found in the XHR tab
 
 XHR stands for XML Http request.
 
@@ -32,15 +38,13 @@ let's see how can we find the address where we need to make AJAX request to get 
 
 after finding the address we need to find the parameter which is used to call the data.
 
-if we scroll down we'll find 
-
- 
+if we scroll down we'll find
 
 ![lecture%20notes%20-%202%203%20b111b8ff3373478abf32962786aa1994/parameters.png](lecture%20notes%20-%202%203%20b111b8ff3373478abf32962786aa1994/parameters.png)
 
 this section which tell us how to pass parameters to our request.
 
-now we have both things now we need to iterate over the school code to 
+now we have both things now we need to iterate over the school code to
 
 ### the code.
 
@@ -48,7 +52,7 @@ What is the return type of the request ?
 
 JSON ?
 
-JavaScript Object Notation is most similar to the python dictionary. 
+JavaScript Object Notation is most similar to the python dictionary.
 
 how to read JSON ?
 
@@ -64,7 +68,7 @@ whenever we login into a website or whenever you go to an eCommerce website and 
 
 Why do we need web sessions ?
 
-Some of the website's data might not be available directly we might need to login into a website to retrieve the data. We use the `requests` library to handle such scenarios. 
+Some of the website's data might not be available directly we might need to login into a website to retrieve the data. We use the `requests` library to handle such scenarios.
 
 Example of a website.
 
