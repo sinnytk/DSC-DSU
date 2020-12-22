@@ -2,7 +2,7 @@
 
 <p align="center"><img src="../banner.jpg"></img></p>
 
-- ## Week 2 | Web automation using Selenium
+- ## Week 3 | Web automation using Selenium
 
   - ### [Day 1](day_1/)
 
