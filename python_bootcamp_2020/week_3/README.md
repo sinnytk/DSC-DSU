@@ -30,7 +30,7 @@
 Notes:
 
 - You'll need to use m.facebook.com for ease
-- For submission, like and share this post: https://www.facebook.com/groups/380137593049071/permalink/389411455455018/
+- For submission, like and share this post: https://www.facebook.com/DeveloperStudentClubDHASuffaUniversity/posts/2838706263116774
 - The shared post should have the following caption(also sent through Selenium bot):
   - "This post was shared using a bot that I learnt to create from Python Bootcamp 2020 held by DSC@DSU. #DSCDSU #DeveloperStudentClubs #DSCPakistan #Python #Bot"
 - The caption is not strict, but should contain the hashtags even if you modify your message according to your flavor.
