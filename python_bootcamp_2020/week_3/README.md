@@ -40,10 +40,10 @@ Notes:
 
 ### 2 **Optional, extra marks**: make the bot created above make at least 50 comments in succession on the page. These 50 comments should be lines split from a paragraph you may write on:
 
-- Your aims and goals after this bootcamp?
-- How did you like the instructors and the management?
-- What did you learn from the bootcamp?
-- Would you be willing to carry the legacy forward for a free, open source driven tech bootcamp like this one?
+    - Your aims and goals after this bootcamp?
+    - How did you like the instructors and the management?
+    - What did you learn from the bootcamp?
+    - Would you be willing to carry the legacy forward for a free, open source driven tech bootcamp like this one?
 
 - You can use main function to predefine anything but make sure you divide everything you can in functions.
 - Submit your github folder link, your output(in form of video this time) on Google Classroom
