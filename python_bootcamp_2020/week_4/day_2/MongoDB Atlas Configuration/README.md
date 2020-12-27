@@ -1,22 +1,27 @@
-# DSC-DSU | Python Bootcamp 2020
+![Screenshots/1.png](Screenshots/1.png)
 
-<p align="center"><img src="../banner.jpg"></img></p>
+![Screenshots/2.png](Screenshots/1.png)
 
-- ## Week 4 | PyQt5 , Flask and the way forward
+![Screenshots/3.png](Screenshots/1.png)
 
-  - ### [Day 1](day_1/)
+![Screenshots/4.png](Screenshots/1.png)
 
-    - Introduction to PyQt5
-    - Installation of PyQt5
-    - Layouts and widgets 
-    - Event handling
+![Screenshots/5.png](Screenshots/1.png)
 
-  - ### [Day 2](day_2/)
+![Screenshots/6.png](Screenshots/1.png)
 
-    - Introduction to Flask
-    - installation of Flask
-    - web apps
-    - Jinja2 templeting 
+![Screenshots/7.png](Screenshots/1.png)
 
-  - ### [Day 3](day_3/)
-    - The way forward
+![Screenshots/8.png](Screenshots/1.png)
+
+![Screenshots/9.png](Screenshots/1.png)
+
+![Screenshots/10.png](Screenshots/1.png)
+
+![Screenshots/11.png](Screenshots/1.png)
+
+![Screenshots/12.png](Screenshots/1.png)
+
+![Screenshots/13.png](Screenshots/1.png)
+
+![Screenshots/14.png](Screenshots/1.png)
