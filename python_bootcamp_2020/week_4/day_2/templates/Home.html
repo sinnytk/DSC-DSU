@@ -25,7 +25,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
     <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
   </div>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
-    <img src="https://www.w3schools.com/w3images/avatar3.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+    <img src="/w3images/avatar2.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
   </a>
   <a href="/logout" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="Logout">Logout</a>
  </div>
@@ -40,7 +40,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <!-- Profile -->
       <div class="w3-card w3-round w3-white">
         <div class="w3-container">
-         <h4 class="w3-center">{{ session['name'] }}</h4>
+         <h4 class="w3-center">My Profile</h4>
          <p class="w3-center"><img src="https://www.w3schools.com/w3images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
          <hr>
          <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI</p>
@@ -69,7 +69,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <div class="w3-row-padding">
         <div class="w3-col m12">
           <div class="w3-card w3-round w3-white">
-            <form action="" method="POST" class="searchbar">
+            <form action="{{ url_for('index') }}" method="POST" class="searchbar">
               <div class="w3-container w3-padding">
                 <input type="text" contenteditable="true" class="w3-border w3-padding form-control" placeholder="Enter tweet" name="tweet" required/>
                 <button type="submit" class="w3-button w3-theme"><i class="fa fa-pencil"></i> &nbsp;Post</button> 
@@ -79,13 +79,13 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
         </div>
       </div>
       
-      {% for key,value in dictionary.items() %}
+      {% for key, value in dictionary.items() %}
       <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
         <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-        <span class="w3-right w3-opacity">{{ value[2] }}</span>
-        <h4>{{ value[0] }}</h4><br>
+        <span class="w3-right w3-opacity">{{value[2]}}</span>
+        <h4>{{value[0]}}</h4><br>
         <hr class="w3-clear">
-        <p>{{ value[1] }}</p>
+        <p>{{value[1]}}</p>
         <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button> 
         <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> &nbsp;Comment</button> 
       </div>
