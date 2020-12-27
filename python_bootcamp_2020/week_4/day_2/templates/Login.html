@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Login</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/reg_cs.css') }}" type = "text/css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/d9331f4d8a.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-light fixed-top navbar-light ">
+    <div class="w3-right w3-hide-small">
+      <button class="w3-black w3-button"><a href="/">Register</a></button>
+      <button class="w3-black w3-button"><a href="/login">Login</a></button>
+    </div>
+  </nav>
+
+
+  <section class="pt-5 pb-4">
+      <div class="w3-container w3-padding-32 w3-center" >
+          <div id="logbox">
+              <h1 class="w3-jumbo">Login</h1>
+              <br>
+              <form action="" method="POST">
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" name="username" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+          </div>
+  </div>
+  </section>
+</body>
+
+</html>
