@@ -7,9 +7,9 @@ Main repository containing all relevant documents and codebase for Developer Stu
 
 ## Sessions
 
-- [Version Control With Git](<##Version\ Control\ With\ Git>)
-- [Machine Learning Workshop](<##Machine\ Learning\ Workshop>)
-- [Python Bootcamp 2020](<##Version\ Control\ With\ Git>)
+- [Version Control With Git](#version-control-with-git)
+- [Machine Learning Workshop](#machine-learning-workshop)
+- [Python Bootcamp 2020](#python-bootcamp-2020)
 
 ## Resources
 
@@ -27,4 +27,3 @@ Main repository containing all relevant documents and codebase for Developer Stu
 - ## Python Bootcamp 2020
   - [YouTube playlist](https://www.youtube.com/playlist?list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&fbclid=IwAR0NGiQMWnytKUn9Je5BP4BWro-hcTxoEbuw8nNNpbECKGKFG6et6yz4-co)
   - [Lecture notes](python_bootcamp_2020/README.md)
-
