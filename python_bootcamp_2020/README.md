@@ -5,23 +5,23 @@ Repository to hold DSC@DSU Python Bootcamp 2020 resources.
 
 ## Lecture Notes
 
-| Date          | Week |                      Topics                       |           Lecture Notes            | Recorded YouTube Link                                                                                      |
-| :------------ | ---: | :-----------------------------------------------: | :--------------------------------: | ---------------------------------------------------------------------------------------------------------- |
-| 4th Dec 2020  |    1 |            Installation, IDEs, runtime            | [Lecture Notes 1.1](week_1/day_1/) | [Youtube 1.1](https://youtu.be/DmSf5VO43Ns)                                                                |
-| 5th Dec 2020  |      |     PEP8, datatypes, scope, loops, conditions     | [Lecture Notes 1.2](week_1/day_2/) | [Youtube 1.2](https://youtu.be/NDaaIrbczy0)                                                                |
-| 6th Dec 2020  |      | \_\_name\_\_ variable, Dicts, lists, collections  | [Lecture Notes 1.3](week_1/day_3/) | [Youtube 1.3](https://youtu.be/G5rQ4u0psOg)                                                                |
-|               |      |                                                   |                                    |                                                                                                            |
-| 11th Dec 2020 |    2 |      File handling, CSV reading and writing       | [Lecture Notes 2.1](week_2/day_1)  | [Youtube 2.1](https://youtu.be/pdzKoAYcGv8)                                                                |
-| 12th Dec 2020 |      | Web Scraping with `requests` and `BeautifulSoup4` | [Lecture Notes 2.2](week_2/day_2)  | [Youtube 2.2](https://youtu.be/I8eHzbSNEiY)                                                                |
-| 13th Dec 2020 |      |         Handling web sessions and cookies         | [Lecture Notes 2.3](week_2/day_3)  | [Youtube 2.3](https://youtu.be/dZhU5smYl0I)                                                                |
-|               |      |                                                   |                                    |                                                                                                            |
-| 18th Dec 2020 |    3 |       Web crawlers and bots using Selenium        | [Lecture Notes 3.1](week_3/day_1)  | [Youtube 3.1](https://www.youtube.com/watch?v=dN1DyMJf9hs&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=7) |
-| 19th Dec 2020 |      |       Interacting with websites using Bots        | [Lecture Notes 3.2](week_3/day_2)  | [Youtube 3.2](https://www.youtube.com/watch?v=dN1DyMJf9hs&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=8) |
-| 20th Dec 2020 |      |               Creating Facebook bot               | [Lecture Notes 3.3](week_3/day_3)  | [Youtube 3.3](https://www.youtube.com/watch?v=aZJJCbG7gXA&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=9) |
-|               |      |                                                   |                                    |                                                                                                            |
-| 25th Dec 2020 |    4 |        Creating basic web apps with Flask         |                                    |                                                                                                            |
-| 26th Dec 2020 |      |              Desktop GUIs using PyQT              |                                    |                                                                                                            |
-| 27th Dec 2020 |      |        Conclusion with resources to follow        |                                    |                                                                                                            |
+| Date          | Week |                      Topics                       |           Lecture Notes            | Recorded YouTube Link                                                                                       |
+| :------------ | ---: | :-----------------------------------------------: | :--------------------------------: | ----------------------------------------------------------------------------------------------------------- |
+| 4th Dec 2020  |    1 |            Installation, IDEs, runtime            | [Lecture Notes 1.1](week_1/day_1/) | [Youtube 1.1](https://youtu.be/DmSf5VO43Ns)                                                                 |
+| 5th Dec 2020  |      |     PEP8, datatypes, scope, loops, conditions     | [Lecture Notes 1.2](week_1/day_2/) | [Youtube 1.2](https://youtu.be/NDaaIrbczy0)                                                                 |
+| 6th Dec 2020  |      | \_\_name\_\_ variable, Dicts, lists, collections  | [Lecture Notes 1.3](week_1/day_3/) | [Youtube 1.3](https://youtu.be/G5rQ4u0psOg)                                                                 |
+|               |      |                                                   |                                    |                                                                                                             |
+| 11th Dec 2020 |    2 |      File handling, CSV reading and writing       | [Lecture Notes 2.1](week_2/day_1)  | [Youtube 2.1](https://youtu.be/pdzKoAYcGv8)                                                                 |
+| 12th Dec 2020 |      | Web Scraping with `requests` and `BeautifulSoup4` | [Lecture Notes 2.2](week_2/day_2)  | [Youtube 2.2](https://youtu.be/I8eHzbSNEiY)                                                                 |
+| 13th Dec 2020 |      |         Handling web sessions and cookies         | [Lecture Notes 2.3](week_2/day_3)  | [Youtube 2.3](https://youtu.be/dZhU5smYl0I)                                                                 |
+|               |      |                                                   |                                    |                                                                                                             |
+| 18th Dec 2020 |    3 |       Web crawlers and bots using Selenium        | [Lecture Notes 3.1](week_3/day_1)  | [Youtube 3.1](https://www.youtube.com/watch?v=yTWhLgR5RNc&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=7)  |
+| 19th Dec 2020 |      |       Interacting with websites using Bots        | [Lecture Notes 3.2](week_3/day_2)  | [Youtube 3.2](https://www.youtube.com/watch?v=dN1DyMJf9hs&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=8)  |
+| 20th Dec 2020 |      |               Creating Facebook bot               | [Lecture Notes 3.3](week_3/day_3)  | [Youtube 3.3](https://www.youtube.com/watch?v=aZJJCbG7gXA&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=9)  |
+|               |      |                                                   |                                    |                                                                                                             |
+| 25th Dec 2020 |    4 |    Desktop apps with PyQt w/ Shakeeb Siddiqui     |            On their way            | [Youtube 4.1](https://www.youtube.com/watch?v=i9_Pxff9Yy4&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=10) |
+| 26th Dec 2020 |      |  Creating basic web apps with Flask w/ Taha Khan  | [Lecture Notes 4.2](week_4/day_2)  | [Youtube 4.2](https://www.youtube.com/watch?v=ZKC8LrrOUaY&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=11) |
+| 27th Dec 2020 |      |                   Roadmap ahead                   | [Lecture Notes 4.3](week_4/day_3)  | [Youtube 4.3](https://www.youtube.com/watch?v=nbrRA9coJF8&list=PLLyazdzLgFw4SsqxcJzmoKZ94juVjEJZG&index=12) |
 
 ## Instructors
 
